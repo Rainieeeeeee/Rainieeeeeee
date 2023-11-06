@@ -1,0 +1,31 @@
+name: Render Mermaid Diagrams
+on:
+  push:
+    branches:
+      - main  # 根据你的默认分支名称进行调整
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Render Mermaid diagrams
+      run: npx mmdc -i input.md -o output.svg  # 调整输入和输出文件名
+
+    - name: Commit diagram to repository
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add .
+        git commit -m "Rendered Mermaid diagrams"
+        git push
