@@ -3,19 +3,28 @@
 
 I transfer the data from the form of stats to the policies.
 
-```mermaid
-1["paper"]
-2["row data"]
-3["population/area"]
-4["policy"]
-1 -->2
-1 -->3
-2 -->4
-···
+1, We got the row data, and the information of population/area from the paper.\
+
+2, **Row data**\
+   The unit of the type activity is km/year.\
+   The unit of the type emission factor is g/km.\
+   
+3, **refine data**\
+   The type of activity refine = row data / population, and the unit is km/person.\
+   The type of emission factor refine = row data, and the unit is g/km.\
+   
+4, Using R to calculate the avg and sd of the refine_stat.\
+
+5, Using R to transfer stats to policies.
+
+***policies***
+  
+![image](https://github.com/Rainieeeeeee/Rainieeeeeee/assets/97750142/8b0fcac8-ea56-4580-859e-9263654472ed)
 
 
 
 
+***R code**
 ```{R}
 greentechdb_stats = read.csv("~/desktop/green tech project/stats.csv")
 
