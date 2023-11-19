@@ -1,5 +1,5 @@
 policies_id,Name of coder who reported the statistic. Eg. Tim,Link to source,Type of Policy,Effect Type,Metric affected,Usable statistic per year per [unit],,people unless noted otherwise,Statistic as reported,Standard error of statistic,eg. miles,total sample size from which statistic was generated,study length in years (that statistic is in units of),,Fraser (2020),Year of Study,APA formatted citation
-policies,Ruirui,https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3fb55fe0eb35af29723c2d4d00034e0e5157851b,Ride Sharing,Activity,vmt,0.00013,km/person,506，211,68,,km/year,1,834,472,2006,ride-sharing 5 days a week in Dublin,,,
+policies_id,Ruirui,https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3fb55fe0eb35af29723c2d4d00034e0e5157851b,Ride Sharing,Activity,vmt,0.00013,km/person,506，211,68,,km/year,1,834,472,2006,ride-sharing 5 days a week in Dublin,,,
 1,,,Ride Sharing,Activity,vmt,0.00011,km/person,506，211,55,,km/year,,2006,ride-sharing 4 days a week in Dublin,,,
 1,,,Ride Sharing,Activity,vmt,0.00008,km/person,506，211,41,,km/year,,2006,ride-sharing 3 days a week in Dublin,,,
 2,,https://www.sciencedirect.com/science/article/pii/S1361920921001838,Alternative Fuels and Vehicles,Emissions Factor,emissions_factor,0.36,g/km,3,142,000,0.33–0.39,,g/km/year,,,AFFV, marid,2015-2019,4.7km^2,,,
