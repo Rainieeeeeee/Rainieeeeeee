@@ -1,4 +1,0 @@
-"select_policy","policy_id","cmaq_category","type","cost_per_unit","affects","activity_amount","activity_percent","ef_amount","ef_percent","se","policy_name"
-NA,1,"Ride Sharing","Activity",0,"vmt",0.000106666666666667,NA,NA,NA,2.51661147842358e-05,NA
-NA,2,"Alternative Fuels and Vehicles","Emission_Factor",0,"emissionFactor",NA,NA,0.738333333333333,NA,0.546587900829623,NA
-NA,3,"Congestion Reduction and Traffic Flow Improvements","Emission_Factor",0,"emissionFactor",NA,NA,29.8,NA,32.4302328082917,NA
