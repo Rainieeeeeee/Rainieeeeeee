@@ -1,4 +1,4 @@
-policies_id,coder,link,type_of_policy,effect_type,metric_affected, static,units, population, raw_statistic,standard_error_of_statistic,orignal_unit,total_sample_size_from_which_statistic_was_generated,study_length_in_years (that statistic is in units of),,fraser (2020),year_of_Study,APA_formatted_citation
+policies_id,coder,link,type_of_policy,effect_type,metric_affected, static, units, population, raw_statistic,standard_error_of_statistic,orignal_unit,total_sample_size_from_which_statistic_was_generated,study_length_in_years (that statistic is in units of),,fraser (2020),year_of_Study,APA_formatted_citation
 1,Ruirui,https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=3fb55fe0eb35af29723c2d4d00034e0e5157851b,Ride Sharing,Activity,vmt,0.00013,km/person,506，211,68,,km/year,1,834,472,2006,ride-sharing 5 days a week in Dublin,,,
 1,,,Ride Sharing,Activity,vmt,0.00011,km/person,506，211,55,,km/year,,2006,ride-sharing 4 days a week in Dublin,,,
 1,,,Ride Sharing,Activity,vmt,0.00008,km/person,506，211,41,,km/year,,2006,ride-sharing 3 days a week in Dublin,,,
